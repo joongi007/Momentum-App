@@ -27,7 +27,7 @@ img{
 
 .child2{
     position: absolute;
-    width: 100vw;
+    width: 50vw;
     text-align: left;
     top: 0;
 }
@@ -64,7 +64,7 @@ button:hover{
 
 #weather{
     position: absolute;
-    width: 100vw;
+    width: 50vw;
     text-align: right;
     top: 0;
     right: 0.5rem;
