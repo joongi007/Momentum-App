@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 // Random wise sayings.
 
 // quote list
+=======
+>>>>>>> 33baca3efcbf3082db08b7c14fd3898f8096fd8f
 const quotes = [
     {
         quote: "The way to get started is to quit talking and begin doing.",
@@ -42,7 +45,11 @@ const quotes = [
         quote: "There is always some madness in love. But there is also always some reason in madness.",
         author: "Friedrich Nietzsche",
     },
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 33baca3efcbf3082db08b7c14fd3898f8096fd8f
 ];
 
 const quote = document.querySelector("#quote span:first-child");
