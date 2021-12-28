@@ -1,0 +1,68 @@
+#todo-form input{
+    font-size: 1.3rem;
+}
+
+
+#login-form input[type=text]{
+    width: 33rem; 
+    height: 4.5rem;
+    background-color: transparent;
+    font-size: 3.5rem;
+    color: white;
+    border: 0; border-bottom:0.2rem solid whitesmoke; opacity: 0.78;
+    margin: 1.33rem;
+    box-sizing:border-box; 
+    transition:.3s; 
+    text-align: center;
+    outline:none; 
+}
+
+#login-form input[type=text]:focus{
+    border:0.15rem solid #4285f4;
+    box-shadow:0 0 0.2rem 0 #4285f4;
+    background-color: transparent;
+    text-align: center;
+}
+
+#todo-form input[type=text] {
+    width: 23rem; 
+    height: 3rem;
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    border: 0.1rem solid transparent;
+    margin: 2rem;
+    outline:none; 
+    box-sizing:border-box; 
+    transition:.3s; 
+    text-align: center;
+}
+
+#todo-form input[type=text]:focus{
+    border:0.1rem solid #4285f4;
+    box-shadow:0 0 8px 0 #4285f4;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+input::placeholder {
+    color: whitesmoke;
+    text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black, 0 -0.05rem black;
+    opacity: 0.78; 
+}
+input::-webkit-input-placeholder {
+    text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black, 0 -0.05rem black;
+    color: whitesmoke;
+    opacity: 0.78;
+}
+input:-ms-input-placeholder {
+    text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black, 0 -0.05rem black;
+    color: whitesmoke;
+    opacity: 0.78;
+}
+input:-mos-input-placeholder {
+    text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black, 0 -0.05rem black;
+    color: whitesmoke;
+    opacity: 0.78;
+}

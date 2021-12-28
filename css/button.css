@@ -1,0 +1,12 @@
+button {
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+}
+
+button:hover {
+  background-color: red;
+  color: black;
+}

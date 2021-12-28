@@ -1,0 +1,25 @@
+#greeting {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+  }
+  
+  #clock {
+    font-size: 10rem;
+    margin-bottom: 0;
+  }
+  
+  #weather {
+    position: absolute;
+    width: 50vw;
+    text-align: right;
+    top: 0;
+    right: 0.5rem;
+  }
+  
+  #quote {
+    position: absolute;
+    text-align: left;
+    font-size: 1.2rem;
+    bottom: 0.1rem;
+  }
+  

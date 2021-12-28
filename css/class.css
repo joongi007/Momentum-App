@@ -1,0 +1,22 @@
+.hidden {
+    display: none;
+  }
+  
+  .parents {
+    position: relative;
+  }
+  
+  .child {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  
+  .child2 {
+    position: absolute;
+    width: 50vw;
+    text-align: left;
+    top: 0;
+  }

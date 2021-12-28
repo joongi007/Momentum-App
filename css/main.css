@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  position: fixed;
+}
+
+img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, h2, ul, #quote, #weather {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: whitesmoke;
+  text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black,
+    0 -0.05rem black;
+  font-weight: bold;
+}
