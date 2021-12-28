@@ -1,7 +1,7 @@
 // Show the weather using openweathermapi
 
-const API_KEY = "34361182a4900dc8d8c1e1b23c0d2ee7";
-
+import { API_KEY } from "./api";
+console.log(API_KEY);
 function onGeoOk(posistion) {
     const lat = posistion.coords.latitude;
     const lon = posistion.coords.longitude;
@@ -14,7 +14,7 @@ function onGeoOk(posistion) {
     });
 }
 
-function onGeoError() {
+function onGeoError(){
     alert("No Weather for you")
 }
 
