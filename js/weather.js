@@ -1,6 +1,5 @@
 // Show the weather using openweathermapi
 
-import { API_KEY } from "./api";
 console.log(API_KEY);
 function onGeoOk(posistion) {
     const lat = posistion.coords.latitude;
