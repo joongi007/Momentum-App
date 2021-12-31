@@ -1,10 +1,11 @@
 // Show the weather using openweathermapi
 
-console.log(API_KEY);
 function onGeoOk(posistion) {
     const lat = posistion.coords.latitude;
     const lon = posistion.coords.longitude;
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
+
+    // Call "openweathermapapi" using "serverless"
+    const url = `https://my-api-server.netlify.app/.netlify/functions/weather?lat=${lat}&lon=${lon}`
     fetch(url).then(response => response.json()).then(data => {
         const weather = document.querySelector("#weather span:first-child");
         const city = document.querySelector("#weather span:last-child");
